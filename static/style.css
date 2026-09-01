@@ -584,6 +584,20 @@ textarea::placeholder {
     font-weight: 800;
 }
 
+/* Let PDF-export page breaks fall between table rows instead of
+   pushing the whole table (and leaving a blank gap) to the next page. */
+.result-box tr {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.result-box h1,
+.result-box h2,
+.result-box h3 {
+    page-break-after: avoid;
+    break-after: avoid;
+}
+
 /* ---------- Error / status ---------- */
 
 .error-box {
