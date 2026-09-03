@@ -2,6 +2,10 @@ from pathlib import Path
 import traceback
 import uvicorn
 
+##for mcp thing this is added helps in nested event loop for async 
+import nest_asyncio
+nest_asyncio.apply()
+
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
