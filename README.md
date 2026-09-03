@@ -1,6 +1,6 @@
 # ✈️ TripBuddy AI
 
-**A multi-agent AI travel planner that turns a single sentence into a complete, budget-aware itinerary — built with LangGraph, FastAPI, and Groq.**
+**A multi-agent AI travel planner that turns a single sentence into a complete, budget-aware itinerary — built with LPython, FastAPI, LangGraph framework, PostgreSQL as database and LangSmith for observability, containerized with Docker and deployed on Render.**
 
 Ask for a trip in plain English (*"Plan a 5 day trip from Delhi to Vizag for 4 people with ₹50,000 budget"*) and four specialized AI agents collaborate — searching real flights, comparing hotels, building a day-by-day plan, and writing up a final recommendation — all orchestrated as a stateful graph with persistent conversation memory.
 
@@ -15,21 +15,12 @@ Ask for a trip in plain English (*"Plan a 5 day trip from Delhi to Vizag for 4 p
 
 ## 🎥 Demo
 
-> _Add a short demo video/GIF here — e.g. record with [ScreenToGif](https://www.screentogif.com/) or Loom and drop the file at `docs/assets/demo.mp4` (or embed a hosted link)._
 
-```
-docs/assets/demo.mp4   <-- place your demo video/gif here and update this section
-```
-
----
 
 ## 📐 Architecture
 
-> _Save the architecture diagram image at `docs/assets/architecture.png` — once added, it will render below on GitHub._
+<img width="1672" height="941" alt="Architecture" src="https://github.com/user-attachments/assets/be07e7bf-b0fb-46f2-9c38-c9e485a5845e" />
 
-```
-docs/assets/architecture.png   <-- place the architecture diagram here
-```
 
 **How a request flows through the system:**
 
@@ -218,7 +209,7 @@ The app ships as a single Docker image and is deployed on **Render**:
 
 ## 📄 License
 
-This project is available for personal and educational use. Add a license file (e.g. MIT) if you intend to open-source it formally.
+This project is available for personal and educational use. 
 
 ---
 
